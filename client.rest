@@ -1,0 +1,10 @@
+@baseUrl = "http://localhost:3003"
+
+@name create_orders POST {{baseUrl}}/orders HTTP/1.1
+content-type: application/json
+
+{
+	"name": "Camisa",
+	"price": 9.99,
+	"phoneNumber": "+5581996773981"
+}

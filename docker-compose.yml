@@ -17,7 +17,7 @@ services:
       - /usr/src/app/node_modules
     ports:
       - '3003:3003'
-      
+
   mongodb-primary:
     image: docker.io/bitnami/mongodb:7.0
     environment:
